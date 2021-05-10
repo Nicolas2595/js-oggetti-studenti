@@ -50,7 +50,7 @@ var nuovoStudente = {
 
     nome: prompt("Inserisci qui il tuo nome"),
     cognome: prompt("Inseriesci qui il tuo cognome"),
-    eta: prompt("Inseriesci qui la tua eta")
+    eta: parseInt(prompt("Inseriesci qui la tua eta"))
 
 };
 console.log(nuovoStudente);
